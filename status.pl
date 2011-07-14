@@ -3,9 +3,10 @@
 use strict;
 use warnings;
 
-
 use LWP::UserAgent;
 my $user_agent = LWP::UserAgent->new();
+
+# TODO: Move credentials/router URLs/extraction code outside of here
 
 $user_agent->credentials(
     '192.168.0.1:80',   # location
