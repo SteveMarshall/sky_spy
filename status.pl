@@ -165,4 +165,4 @@ my @output = (
 
 # Output
 my $output_line = join ',', @output;
-print $output_line;
+print "${output_line}\n";
